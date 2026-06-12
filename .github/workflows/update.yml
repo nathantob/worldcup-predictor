@@ -1,0 +1,41 @@
+name: Update predictor model
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install scikit-learn numpy
+
+      - name: Download the latest datasets
+        run: |
+          curl -sL "https://raw.githubusercontent.com/martj42/international_results/master/results.csv" -o results.csv
+          curl -sL "https://raw.githubusercontent.com/Dato-Futbol/fifa-ranking/master/ranking_fifa_historical.csv" -o fifa_ranking.csv
+          BASE="https://raw.githubusercontent.com/salimt/football-datasets/main/datalake/transfermarkt"
+          curl -sL "$BASE/player_market_value/player_market_value.csv" -o player_market_value.csv
+          curl -sL "$BASE/player_profiles/player_profiles.csv" -o player_profiles.csv
+
+      - name: Rebuild the model
+        run: python build_ml_site.py
+
+      - name: Commit the updated model (if it changed)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add mlmodel.js
+          git diff --staged --quiet || git commit -m "Auto-update model with latest match results"
+          git push
