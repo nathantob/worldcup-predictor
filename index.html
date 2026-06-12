@@ -77,7 +77,7 @@
 
       <div class="result" id="result">
         <div class="verdict" id="verdict"></div>
-        <div class="score" id="score" style="text-align:center;font-size:1.6rem;font-weight:800;margin-bottom:18px;letter-spacing:1px;"></div>
+        <div class="score" id="score" style="text-align:center;margin-bottom:18px;"></div>
         <div class="bar-group">
           <div class="bar-top"><span id="labelA">Team A win</span><span id="pctA"></span></div>
           <div class="track"><div class="fill" id="barA" style="background:var(--win);"></div></div>
@@ -186,9 +186,23 @@
     document.getElementById("barD").style.width = fmt(pDraw);
     document.getElementById("barB").style.width = fmt(pB);
 
-    // Most likely scoreline (the peak of each team's goal distribution).
-    document.getElementById("score").textContent =
-      `${a} ${Math.floor(lamA)} – ${Math.floor(lamB)} ${b}`;
+    // Top 3 most likely exact scorelines (from the full goal grid).
+    const scoreList = [];
+    for (let i = 0; i <= MAX_GOALS; i++) {
+      const pi = poisson(i, lamA);
+      for (let j = 0; j <= MAX_GOALS; j++) {
+        scoreList.push({ i, j, p: pi * poisson(j, lamB) });
+      }
+    }
+    scoreList.sort((x, y) => y.p - x.p);
+    const top3 = scoreList.slice(0, 3).map((s, n) =>
+      `<div style="font-size:${n === 0 ? "1.5rem" : "1.05rem"};font-weight:${n === 0 ? 800 : 600};
+        margin:3px 0;opacity:${n === 0 ? 1 : 0.75};">
+        ${a} ${s.i}–${s.j} ${b}
+        <span style="color:var(--accent);font-weight:600;">${(s.p * 100).toFixed(0)}%</span>
+      </div>`).join("");
+    document.getElementById("score").innerHTML =
+      `<div style="font-size:.75rem;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:1px;">Most likely scores</div>${top3}`;
 
     // A friendly verdict line.
     let verdict;
