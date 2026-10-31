@@ -3,14 +3,14 @@ const ML = {
  "HOME_ADV": 0.4,
  "MAX_GOALS": 8,
  "mean": [
-  1.620287,
-  1.108184,
-  0.512102,
-  0.468687,
-  0.224461,
-  0.299661,
-  0.093544,
-  0.698985,
+  1.6203,
+  1.108182,
+  0.512118,
+  0.468691,
+  0.224462,
+  0.299656,
+  0.093553,
+  0.699034,
   17.660002,
   0.090319,
   0.051208,
@@ -19,14 +19,14 @@ const ML = {
   -0.052049
  ],
  "scale": [
-  1.098884,
-  0.771939,
-  1.581611,
-  0.245874,
+  1.098869,
+  0.771954,
+  1.581602,
+  0.245872,
   0.087229,
-  0.223132,
-  1.058301,
-  0.458699,
+  0.223126,
+  1.05831,
+  0.458678,
   298.047499,
   0.286639,
   0.941382,
@@ -36,58 +36,58 @@ const ML = {
  ],
  "coef": [
   [
-   0.051953,
-   0.037967,
-   0.017566,
-   -0.043424,
-   -0.003327,
-   0.120423,
-   0.914367,
-   0.164012,
-   0.051656,
-   0.017504,
-   0.150208,
-   0.009469,
-   -0.034533,
-   0.00489
+   0.048736,
+   0.038976,
+   0.014837,
+   -0.027062,
+   0.00017,
+   0.131949,
+   0.916578,
+   0.163978,
+   0.050694,
+   0.017598,
+   0.150204,
+   0.009437,
+   -0.034595,
+   0.004743
   ],
   [
-   -0.095237,
-   -0.058816,
-   -0.037463,
-   0.046185,
-   0.090342,
-   0.018138,
-   0.025367,
-   0.031603,
-   0.016947,
-   -0.04592,
-   -0.017204,
-   -0.008843,
-   0.023182,
-   0.025996
+   -0.094615,
+   -0.058,
+   -0.037428,
+   0.040049,
+   0.090153,
+   0.018943,
+   0.030717,
+   0.03295,
+   0.017989,
+   -0.045702,
+   -0.016674,
+   -0.009337,
+   0.024122,
+   0.024889
   ],
   [
-   0.043284,
-   0.020849,
-   0.019897,
-   -0.002761,
-   -0.087015,
-   -0.138561,
-   -0.939734,
-   -0.195615,
-   -0.068604,
-   0.028416,
-   -0.133004,
-   -0.000625,
-   0.011351,
-   -0.030886
+   0.04588,
+   0.019024,
+   0.022591,
+   -0.012987,
+   -0.090323,
+   -0.150892,
+   -0.947295,
+   -0.196927,
+   -0.068683,
+   0.028104,
+   -0.13353,
+   -0.0001,
+   0.010473,
+   -0.029631
   ]
  ],
  "intercept": [
-  0.439321,
-  -0.179014,
-  -0.260308
+  0.438812,
+  -0.17862,
+  -0.260192
  ],
  "classes": [
   0,
@@ -117,49 +117,49 @@ const ML = {
    "form": -0.8
   },
   "Northern Ireland": {
-   "atk": 0.284,
-   "def": 1.0267,
+   "atk": 0.2839,
+   "def": 1.0266,
    "fifa": 1339.6,
    "vlog": 7.9631,
    "form": 0.4
   },
   "United States": {
-   "atk": 1.0948,
-   "def": 0.7692,
+   "atk": 1.0947,
+   "def": 0.7691,
    "fifa": 1632.2,
    "vlog": 8.5927,
    "form": 1.2
   },
   "Canada": {
    "atk": 0.5689,
-   "def": 1.2291,
+   "def": 1.229,
    "fifa": 1502.3,
    "vlog": 8.2885,
    "form": 0.0
   },
   "Uruguay": {
    "atk": 0.9064,
-   "def": 1.3043,
+   "def": 1.3042,
    "fifa": 1701.3,
    "vlog": 8.6981,
    "form": 1.4
   },
   "Argentina": {
-   "atk": 1.2042,
-   "def": 1.709,
+   "atk": 1.2041,
+   "def": 1.7089,
    "fifa": 1889.0,
    "vlog": 8.9699,
    "form": 3.4
   },
   "Austria": {
-   "atk": 0.8924,
+   "atk": 0.8923,
    "def": 0.8887,
    "fifa": 1580.4,
    "vlog": 8.3692,
    "form": 0.2
   },
   "Hungary": {
-   "atk": 0.3736,
+   "atk": 0.3735,
    "def": 0.9047,
    "fifa": 1511.1,
    "vlog": 8.2945,
@@ -167,13 +167,13 @@ const ML = {
   },
   "Belgium": {
    "atk": 1.243,
-   "def": 1.1578,
+   "def": 1.1577,
    "fifa": 1768.1,
    "vlog": 8.786,
    "form": 0.0
   },
   "France": {
-   "atk": 1.342,
+   "atk": 1.3419,
    "def": 1.3204,
    "fifa": 1851.9,
    "vlog": 9.1761,
@@ -187,15 +187,15 @@ const ML = {
    "form": 1.6
   },
   "Guernsey": {
-   "atk": 0.1196,
-   "def": 0.7239,
+   "atk": 0.1197,
+   "def": 0.724,
    "fifa": null,
    "vlog": null,
    "form": 0.6
   },
   "Jersey": {
-   "atk": 0.674,
-   "def": 0.7143,
+   "atk": 0.6741,
+   "def": 0.7144,
    "fifa": null,
    "vlog": 4.699,
    "form": 1.0
@@ -215,21 +215,21 @@ const ML = {
    "form": 3.2
   },
   "Trinidad and Tobago": {
-   "atk": -0.1305,
+   "atk": -0.13,
    "def": 0.0992,
    "fifa": 1213.2,
    "vlog": 7.2455,
    "form": -1.2
   },
   "South Africa": {
-   "atk": 0.3334,
-   "def": 0.7909,
+   "atk": 0.3333,
+   "def": 0.7908,
    "fifa": 1415.1,
    "vlog": 7.407,
    "form": 1.4
   },
   "Germany": {
-   "atk": 1.0357,
+   "atk": 1.0356,
    "def": 1.1773,
    "fifa": 1692.2,
    "vlog": 8.9956,
@@ -251,34 +251,34 @@ const ML = {
   },
   "Denmark": {
    "atk": 0.9215,
-   "def": 1.0047,
+   "def": 1.0046,
    "fifa": 1621.7,
    "vlog": 8.6785,
    "form": 0.2
   },
   "Italy": {
-   "atk": 0.8915,
+   "atk": 0.8914,
    "def": 1.1233,
    "fifa": 1726.3,
    "vlog": 8.9547,
    "form": 0.8
   },
   "Chile": {
-   "atk": 0.8686,
+   "atk": 0.8685,
    "def": 0.8572,
    "fifa": 1468.0,
    "vlog": 7.937,
    "form": -0.2
   },
   "Russia": {
-   "atk": 0.7748,
+   "atk": 0.7747,
    "def": 1.0281,
    "fifa": 1508.7,
    "vlog": 8.2911,
    "form": 2.8
   },
   "Finland": {
-   "atk": 0.3489,
+   "atk": 0.3488,
    "def": 0.6273,
    "fifa": 1384.4,
    "vlog": 7.7356,
@@ -300,7 +300,7 @@ const ML = {
   },
   "China": {
    "atk": -0.4121,
-   "def": 0.1276,
+   "def": 0.1275,
    "fifa": 1253.8,
    "vlog": 7.1055,
    "form": -1.2
@@ -313,8 +313,8 @@ const ML = {
    "form": 1.2
   },
   "Basque Country": {
-   "atk": 0.8658,
-   "def": 0.7519,
+   "atk": 0.8657,
+   "def": 0.7515,
    "fifa": null,
    "vlog": null,
    "form": 1.2
@@ -334,7 +334,7 @@ const ML = {
    "form": 0.4
   },
   "Romania": {
-   "atk": 0.2532,
+   "atk": 0.2531,
    "def": 0.457,
    "fifa": 1481.4,
    "vlog": 7.989,
@@ -348,21 +348,21 @@ const ML = {
    "form": 0.2
   },
   "Spain": {
-   "atk": 1.2935,
+   "atk": 1.2934,
    "def": 1.5353,
    "fifa": 1836.4,
    "vlog": 9.1667,
    "form": 1.6
   },
   "Egypt": {
-   "atk": 0.5071,
-   "def": 1.0255,
+   "atk": 0.507,
+   "def": 1.0254,
    "fifa": 1515.6,
    "vlog": 8.1841,
    "form": 0.6
   },
   "Estonia": {
-   "atk": -0.1968,
+   "atk": -0.1969,
    "def": 0.5746,
    "fifa": 1140.4,
    "vlog": 7.0263,
@@ -411,7 +411,7 @@ const ML = {
    "form": 0.8
   },
   "New Zealand": {
-   "atk": 0.7121,
+   "atk": 0.712,
    "def": 0.5086,
    "fifa": 1199.0,
    "vlog": 7.4401,
@@ -426,7 +426,7 @@ const ML = {
   },
   "Latvia": {
    "atk": -0.4443,
-   "def": 0.2594,
+   "def": 0.2593,
    "fifa": 1098.0,
    "vlog": 6.9269,
    "form": -1.0
@@ -439,7 +439,7 @@ const ML = {
    "form": -1.2
   },
   "Lithuania": {
-   "atk": -0.369,
+   "atk": -0.3691,
    "def": 0.4346,
    "fifa": 1090.9,
    "vlog": 7.1987,
@@ -453,15 +453,15 @@ const ML = {
    "form": -1.6
   },
   "Aruba": {
-   "atk": -0.5541,
-   "def": -0.6025,
+   "atk": -0.554,
+   "def": -0.6028,
    "fifa": 868.4,
    "vlog": null,
    "form": -0.2
   },
   "Cura\u00e7ao": {
    "atk": 0.3368,
-   "def": 0.2764,
+   "def": 0.2765,
    "fifa": 1261.4,
    "vlog": null,
    "form": 1.0
@@ -474,7 +474,7 @@ const ML = {
    "form": -0.4
   },
   "Republic of Ireland": {
-   "atk": 0.3867,
+   "atk": 0.3866,
    "def": 0.9752,
    "fifa": 1394.6,
    "vlog": null,
@@ -489,34 +489,34 @@ const ML = {
   },
   "Jamaica": {
    "atk": -0.0014,
-   "def": 0.5823,
+   "def": 0.5824,
    "fifa": 1403.0,
    "vlog": 7.8385,
    "form": 0.2
   },
   "Kenya": {
-   "atk": -0.2758,
-   "def": 0.0756,
+   "atk": -0.2759,
+   "def": 0.0755,
    "fifa": 1209.0,
    "vlog": 7.221,
    "form": 0.4
   },
   "Uganda": {
-   "atk": -0.0348,
-   "def": 0.3381,
+   "atk": -0.035,
+   "def": 0.3379,
    "fifa": 1257.6,
    "vlog": 6.7011,
    "form": 0.2
   },
   "Bolivia": {
-   "atk": 0.2501,
-   "def": 0.4886,
+   "atk": 0.25,
+   "def": 0.4885,
    "fifa": 1293.8,
    "vlog": 6.8096,
    "form": -3.6
   },
   "Peru": {
-   "atk": 0.2678,
+   "atk": 0.2677,
    "def": 0.8112,
    "fifa": 1483.2,
    "vlog": 7.3979,
@@ -530,36 +530,36 @@ const ML = {
    "form": -0.6
   },
   "Belarus": {
-   "atk": 0.2575,
+   "atk": 0.2574,
    "def": 0.598,
    "fifa": 1229.1,
    "vlog": 7.123,
    "form": 0.6
   },
   "Ukraine": {
-   "atk": 0.6625,
+   "atk": 0.6624,
    "def": 0.7313,
    "fifa": 1548.3,
    "vlog": 8.5139,
    "form": -0.8
   },
   "Barbados": {
-   "atk": -0.4752,
-   "def": -0.6164,
+   "atk": -0.4751,
+   "def": -0.6163,
    "fifa": 944.1,
    "vlog": 5.7959,
    "form": 1.0
   },
   "Nicaragua": {
-   "atk": -0.2983,
+   "atk": -0.2982,
    "def": -0.0593,
    "fifa": 1118.0,
    "vlog": 5.243,
    "form": -2.8
   },
   "Cuba": {
-   "atk": -0.2828,
-   "def": -0.2356,
+   "atk": -0.2823,
+   "def": -0.2354,
    "fifa": 991.7,
    "vlog": 6.3424,
    "form": 1.0
@@ -572,7 +572,7 @@ const ML = {
    "form": -0.6
   },
   "Dominica": {
-   "atk": -1.2307,
+   "atk": -1.2306,
    "def": -0.9432,
    "fifa": 916.7,
    "vlog": 4.8751,
@@ -593,7 +593,7 @@ const ML = {
    "form": -0.8
   },
   "Indonesia": {
-   "atk": 0.0091,
+   "atk": 0.0094,
    "def": 0.0773,
    "fifa": 1124.2,
    "vlog": 7.5638,
@@ -601,20 +601,20 @@ const ML = {
   },
   "French Guiana": {
    "atk": -0.2537,
-   "def": 0.0107,
+   "def": 0.0108,
    "fifa": null,
    "vlog": 6.317,
    "form": 0.6
   },
   "Saint Lucia": {
    "atk": -0.5541,
-   "def": -0.6069,
+   "def": -0.6068,
    "fifa": null,
    "vlog": null,
    "form": 0.0
   },
   "Colombia": {
-   "atk": 0.9983,
+   "atk": 0.9982,
    "def": 1.3927,
    "fifa": 1738.7,
    "vlog": 8.5563,
@@ -628,7 +628,7 @@ const ML = {
    "form": -0.6
   },
   "Venezuela": {
-   "atk": 0.5719,
+   "atk": 0.5718,
    "def": 0.9959,
    "fifa": 1488.6,
    "vlog": 7.9713,
@@ -643,13 +643,13 @@ const ML = {
   },
   "Saint Kitts and Nevis": {
    "atk": -0.3794,
-   "def": -0.7717,
+   "def": -0.7695,
    "fifa": null,
    "vlog": null,
    "form": 1.2
   },
   "Grenada": {
-   "atk": -0.6804,
+   "atk": -0.6799,
    "def": -0.8668,
    "fifa": 946.7,
    "vlog": 6.641,
@@ -663,7 +663,7 @@ const ML = {
    "form": -2.2
   },
   "Slovakia": {
-   "atk": 0.4192,
+   "atk": 0.4191,
    "def": 0.6314,
    "fifa": 1485.9,
    "vlog": 8.1775,
@@ -684,7 +684,7 @@ const ML = {
    "form": 2.0
   },
   "Puerto Rico": {
-   "atk": -0.5713,
+   "atk": -0.5714,
    "def": -0.1048,
    "fifa": 1021.6,
    "vlog": 6.1688,
@@ -698,36 +698,36 @@ const ML = {
    "form": -0.6
   },
   "Iran": {
-   "atk": 0.6557,
+   "atk": 0.6556,
    "def": 0.8642,
    "fifa": 1622.9,
    "vlog": 7.5384,
    "form": -0.8
   },
   "Mongolia": {
-   "atk": -1.4017,
+   "atk": -1.4016,
    "def": -0.7982,
    "fifa": 883.6,
    "vlog": null,
    "form": -2.2
   },
   "Tanzania": {
-   "atk": -0.4024,
-   "def": 0.374,
+   "atk": -0.4025,
+   "def": 0.3739,
    "fifa": 1188.2,
    "vlog": 6.4393,
    "form": 0.4
   },
   "Zimbabwe": {
-   "atk": 0.0129,
-   "def": 0.1959,
+   "atk": 0.0128,
+   "def": 0.1958,
    "fifa": 1135.0,
    "vlog": 7.499,
    "form": 0.4
   },
   "Zambia": {
-   "atk": -0.0033,
-   "def": 0.3265,
+   "atk": -0.0034,
+   "def": 0.3264,
    "fifa": 1252.8,
    "vlog": 7.3546,
    "form": -1.6
@@ -754,50 +754,50 @@ const ML = {
    "form": 0.6
   },
   "Madagascar": {
-   "atk": 0.229,
-   "def": 0.1181,
+   "atk": 0.2289,
+   "def": 0.118,
    "fifa": 1196.6,
    "vlog": 7.0654,
    "form": -0.4
   },
   "Mauritius": {
-   "atk": -0.7814,
-   "def": -0.1556,
+   "atk": -0.7815,
+   "def": -0.1557,
    "fifa": 927.6,
    "vlog": 5.8293,
    "form": 0.4
   },
   "R\u00e9union": {
-   "atk": -0.0883,
+   "atk": -0.0884,
    "def": 0.4949,
    "fifa": null,
    "vlog": null,
    "form": 0.0
   },
   "Zanzibar": {
-   "atk": 0.1015,
-   "def": 0.1664,
+   "atk": 0.1013,
+   "def": 0.1662,
    "fifa": null,
    "vlog": null,
    "form": 0.4
   },
   "Djibouti": {
-   "atk": -0.8127,
-   "def": -0.6528,
+   "atk": -0.8129,
+   "def": -0.6529,
    "fifa": 875.1,
    "vlog": null,
    "form": -1.6
   },
   "Ethiopia": {
-   "atk": -0.3444,
-   "def": 0.1737,
+   "atk": -0.3445,
+   "def": 0.1736,
    "fifa": 1063.4,
    "vlog": 5.0969,
    "form": 0.0
   },
   "DR Congo": {
-   "atk": 0.2579,
-   "def": 0.887,
+   "atk": 0.2578,
+   "def": 0.8869,
    "fifa": 1416.9,
    "vlog": 8.2,
    "form": 0.0
@@ -838,15 +838,15 @@ const ML = {
    "form": 0.8
   },
   "Sierra Leone": {
-   "atk": -0.192,
-   "def": 0.0011,
+   "atk": -0.1921,
+   "def": 0.001,
    "fifa": 1134.3,
    "vlog": 7.2247,
    "form": -0.6
   },
   "Nigeria": {
-   "atk": 0.7077,
-   "def": 0.6232,
+   "atk": 0.7076,
+   "def": 0.6231,
    "fifa": 1498.0,
    "vlog": 8.6599,
    "form": -0.6
@@ -860,21 +860,21 @@ const ML = {
   },
   "Serbia": {
    "atk": 0.3853,
-   "def": 0.7751,
+   "def": 0.775,
    "fifa": 1505.1,
    "vlog": 8.4836,
    "form": -1.8
   },
   "Taiwan": {
-   "atk": -0.602,
+   "atk": -0.6019,
    "def": -0.9102,
    "fifa": 991.3,
    "vlog": null,
    "form": -3.4
   },
   "Ghana": {
-   "atk": 0.2005,
-   "def": 0.6661,
+   "atk": 0.2004,
+   "def": 0.666,
    "fifa": 1360.4,
    "vlog": 8.4232,
    "form": -1.2
@@ -887,22 +887,22 @@ const ML = {
    "form": 0.0
   },
   "New Caledonia": {
-   "atk": -0.0382,
-   "def": 0.0575,
+   "atk": -0.0384,
+   "def": 0.0573,
    "fifa": 1008.9,
    "vlog": null,
    "form": -1.2
   },
   "Vanuatu": {
-   "atk": -0.1873,
-   "def": -0.2629,
+   "atk": -0.1875,
+   "def": -0.2631,
    "fifa": 1005.5,
    "vlog": null,
    "form": 0.4
   },
   "Fiji": {
-   "atk": -0.4341,
-   "def": -0.2447,
+   "atk": -0.4343,
+   "def": -0.2449,
    "fifa": 1038.3,
    "vlog": 5.0969,
    "form": 0.6
@@ -922,15 +922,15 @@ const ML = {
    "form": -0.2
   },
   "Tahiti": {
-   "atk": -0.3416,
-   "def": -0.1588,
+   "atk": -0.342,
+   "def": -0.1592,
    "fifa": 1016.8,
    "vlog": null,
    "form": 0.6
   },
   "Gambia": {
-   "atk": 0.5085,
-   "def": 0.0679,
+   "atk": 0.5084,
+   "def": 0.0678,
    "fifa": 1137.5,
    "vlog": null,
    "form": -0.2
@@ -944,7 +944,7 @@ const ML = {
   },
   "Singapore": {
    "atk": -0.6078,
-   "def": -0.4489,
+   "def": -0.4488,
    "fifa": 1008.3,
    "vlog": 4.699,
    "form": -1.6
@@ -957,29 +957,29 @@ const ML = {
    "form": 1.6
   },
   "Guinea-Bissau": {
-   "atk": -0.3603,
-   "def": 0.3265,
+   "atk": -0.3604,
+   "def": 0.3264,
    "fifa": 1166.0,
    "vlog": 7.7561,
    "form": -0.2
   },
   "Burundi": {
-   "atk": -0.0588,
-   "def": 0.1779,
+   "atk": -0.0589,
+   "def": 0.1777,
    "fifa": 1101.8,
    "vlog": 7.1868,
    "form": 0.4
   },
   "Cameroon": {
-   "atk": 0.2323,
-   "def": 0.8302,
+   "atk": 0.2321,
+   "def": 0.8301,
    "fifa": 1458.5,
    "vlog": 8.3888,
    "form": 0.8
   },
   "Cambodia": {
    "atk": -0.7478,
-   "def": -0.5929,
+   "def": -0.5928,
    "fifa": 919.7,
    "vlog": null,
    "form": 0.0
@@ -993,21 +993,21 @@ const ML = {
   },
   "Kyrgyzstan": {
    "atk": -0.0048,
-   "def": 0.1083,
+   "def": 0.1082,
    "fifa": 1201.1,
    "vlog": 5.5441,
    "form": 0.8
   },
   "Moldova": {
-   "atk": -0.2587,
-   "def": -0.0804,
+   "atk": -0.2588,
+   "def": -0.0805,
    "fifa": 1042.8,
    "vlog": 7.1148,
    "form": -1.0
   },
   "Togo": {
-   "atk": -0.0655,
-   "def": 0.2844,
+   "atk": -0.0656,
+   "def": 0.2843,
    "fifa": 1158.8,
    "vlog": 7.5679,
    "form": 0.8
@@ -1020,204 +1020,204 @@ const ML = {
    "form": -1.6
   },
   "Sudan": {
-   "atk": -0.3893,
-   "def": 0.217,
+   "atk": -0.3894,
+   "def": 0.2168,
    "fifa": 1154.5,
    "vlog": 6.0607,
    "form": -1.0
   },
   "Malta": {
    "atk": -0.3203,
-   "def": 0.1566,
+   "def": 0.1565,
    "fifa": 971.9,
    "vlog": 7.1181,
    "form": 1.2
   },
   "Tunisia": {
-   "atk": 0.217,
+   "atk": 0.2169,
    "def": 0.4373,
    "fifa": 1504.9,
    "vlog": 7.8315,
    "form": -2.0
   },
   "Libya": {
-   "atk": -0.1221,
-   "def": 0.3356,
+   "atk": -0.1222,
+   "def": 0.3355,
    "fifa": 1154.0,
    "vlog": 7.0917,
    "form": -0.2
   },
   "Malawi": {
-   "atk": -0.3989,
-   "def": 0.1686,
+   "atk": -0.399,
+   "def": 0.1684,
    "fifa": 1117.4,
    "vlog": 5.7597,
    "form": -0.6
   },
   "Morocco": {
-   "atk": 0.6563,
-   "def": 1.4144,
+   "atk": 0.6562,
+   "def": 1.4143,
    "fifa": 1676.1,
    "vlog": 8.6613,
    "form": 1.0
   },
   "Benin": {
-   "atk": 0.0666,
-   "def": 0.3787,
+   "atk": 0.0665,
+   "def": 0.3786,
    "fifa": 1257.7,
    "vlog": 7.055,
    "form": -1.2
   },
   "Cape Verde": {
-   "atk": 0.249,
+   "atk": 0.2489,
    "def": 0.4326,
    "fifa": 1379.2,
    "vlog": 7.7185,
    "form": -0.8
   },
   "Ivory Coast": {
-   "atk": 0.5573,
-   "def": 1.1009,
+   "atk": 0.5572,
+   "def": 1.1008,
    "fifa": 1509.1,
    "vlog": 8.6355,
    "form": 0.8
   },
   "Burkina Faso": {
-   "atk": 0.2295,
-   "def": 0.3187,
+   "atk": 0.2294,
+   "def": 0.3186,
    "fifa": 1387.5,
    "vlog": 8.0346,
    "form": -1.8
   },
   "Gabon": {
-   "atk": 0.2295,
+   "atk": 0.2294,
    "def": 0.1498,
    "fifa": 1292.9,
    "vlog": 7.5388,
    "form": -0.6
   },
   "Congo": {
-   "atk": -0.3341,
-   "def": -0.0819,
+   "atk": -0.3342,
+   "def": -0.0821,
    "fifa": 1160.3,
    "vlog": 7.3175,
    "form": -0.8
   },
   "Mali": {
-   "atk": 0.274,
-   "def": 1.0168,
+   "atk": 0.2739,
+   "def": 1.0167,
    "fifa": 1455.2,
    "vlog": 8.2674,
    "form": 0.2
   },
   "Central African Republic": {
-   "atk": -0.1027,
-   "def": -0.3514,
+   "atk": -0.1028,
+   "def": -0.3516,
    "fifa": 1130.7,
    "vlog": 7.1375,
    "form": -1.0
   },
   "Iraq": {
    "atk": 0.1536,
-   "def": 0.35,
+   "def": 0.3499,
    "fifa": 1435.9,
    "vlog": 7.316,
    "form": -1.8
   },
   "Saint Vincent and the Grenadines": {
-   "atk": -0.0337,
-   "def": -0.2903,
+   "atk": -0.0333,
+   "def": -0.2904,
    "fifa": null,
    "vlog": null,
    "form": 1.8
   },
   "Senegal": {
-   "atk": 0.7191,
-   "def": 0.915,
+   "atk": 0.719,
+   "def": 0.9149,
    "fifa": 1620.9,
    "vlog": 8.5465,
    "form": 1.2
   },
   "Laos": {
-   "atk": -1.0903,
+   "atk": -1.0902,
    "def": -1.3087,
    "fifa": 889.6,
    "vlog": null,
    "form": -2.8
   },
   "Mauritania": {
-   "atk": -0.3216,
-   "def": 0.4697,
+   "atk": -0.3218,
+   "def": 0.4696,
    "fifa": 1179.0,
    "vlog": 7.0934,
    "form": 0.2
   },
   "Liberia": {
-   "atk": -0.2813,
-   "def": -0.0326,
+   "atk": -0.2814,
+   "def": -0.0327,
    "fifa": 1065.0,
    "vlog": 7.0118,
    "form": -0.4
   },
   "Chad": {
-   "atk": -0.7008,
-   "def": -0.4662,
+   "atk": -0.7009,
+   "def": -0.4663,
    "fifa": 932.4,
    "vlog": 6.6532,
    "form": -2.0
   },
   "Niger": {
-   "atk": 0.0927,
-   "def": 0.2993,
+   "atk": 0.0925,
+   "def": 0.2992,
    "fifa": 1132.4,
    "vlog": 6.7906,
    "form": -0.6
   },
   "Guinea": {
-   "atk": 0.0707,
-   "def": 0.4549,
+   "atk": 0.0706,
+   "def": 0.4548,
    "fifa": 1298.3,
    "vlog": 8.0282,
    "form": -0.4
   },
   "Algeria": {
-   "atk": 0.7637,
-   "def": 0.7504,
+   "atk": 0.7636,
+   "def": 0.7503,
    "fifa": 1486.0,
    "vlog": 8.4014,
    "form": 0.2
   },
   "Kuwait": {
    "atk": 0.0819,
-   "def": -0.1542,
+   "def": -0.1543,
    "fifa": 1111.6,
    "vlog": 4.8751,
    "form": -1.2
   },
   "Jordan": {
    "atk": 0.5515,
-   "def": 0.5189,
+   "def": 0.5188,
    "fifa": 1377.5,
    "vlog": 6.8736,
    "form": -1.0
   },
   "Papua New Guinea": {
-   "atk": -0.3986,
-   "def": -0.2323,
+   "atk": -0.3988,
+   "def": -0.2325,
    "fifa": 984.2,
    "vlog": null,
    "form": -0.4
   },
   "Solomon Islands": {
-   "atk": -0.0936,
-   "def": -0.5824,
+   "atk": -0.0934,
+   "def": -0.5826,
    "fifa": 1064.1,
    "vlog": null,
    "form": 0.0
   },
   "Somalia": {
-   "atk": -1.1676,
-   "def": 0.0667,
+   "atk": -1.1679,
+   "def": 0.0665,
    "fifa": 829.8,
    "vlog": 5.8603,
    "form": -0.6
@@ -1231,7 +1231,7 @@ const ML = {
   },
   "Bermuda": {
    "atk": -0.3162,
-   "def": -0.6589,
+   "def": -0.6588,
    "fifa": 973.3,
    "vlog": 5.7202,
    "form": -1.0
@@ -1251,29 +1251,29 @@ const ML = {
    "form": 0.8
   },
   "Bahrain": {
-   "atk": -0.228,
+   "atk": -0.2281,
    "def": -0.0583,
    "fifa": 1315.5,
    "vlog": 5.0969,
    "form": -1.6
   },
   "Oman": {
-   "atk": -0.1754,
+   "atk": -0.1755,
    "def": 0.4091,
    "fifa": 1309.3,
    "vlog": 5.7202,
    "form": -1.0
   },
   "Eswatini": {
-   "atk": -0.5064,
-   "def": -0.2917,
+   "atk": -0.5065,
+   "def": -0.2919,
    "fifa": 1012.2,
    "vlog": null,
    "form": -1.6
   },
   "Botswana": {
-   "atk": -0.3009,
-   "def": 0.1006,
+   "atk": -0.301,
+   "def": 0.1005,
    "fifa": 1050.2,
    "vlog": null,
    "form": -1.0
@@ -1286,15 +1286,15 @@ const ML = {
    "form": 0.2
   },
   "Lesotho": {
-   "atk": -0.6131,
-   "def": 0.0914,
+   "atk": -0.6132,
+   "def": 0.0913,
    "fifa": 1034.0,
    "vlog": 5.0969,
    "form": -0.4
   },
   "Bahamas": {
    "atk": -1.2324,
-   "def": -1.7815,
+   "def": -1.7816,
    "fifa": 817.2,
    "vlog": null,
    "form": -3.8
@@ -1307,8 +1307,8 @@ const ML = {
    "form": -3.6
   },
   "Cook Islands": {
-   "atk": -1.2379,
-   "def": -1.0605,
+   "atk": -1.2386,
+   "def": -1.0612,
    "fifa": 877.5,
    "vlog": null,
    "form": -0.6
@@ -1321,22 +1321,22 @@ const ML = {
    "form": 1.2
   },
   "Faroe Islands": {
-   "atk": -0.1492,
+   "atk": -0.1493,
    "def": 0.5906,
    "fifa": 1089.5,
    "vlog": 6.2368,
    "form": 0.2
   },
   "Nepal": {
-   "atk": -1.3128,
+   "atk": -1.3127,
    "def": -0.4297,
    "fifa": 935.9,
    "vlog": null,
    "form": -0.8
   },
   "Antigua and Barbuda": {
-   "atk": -0.9166,
-   "def": -0.677,
+   "atk": -0.9165,
+   "def": -0.6774,
    "fifa": 1034.7,
    "vlog": 6.1461,
    "form": 1.0
@@ -1349,50 +1349,50 @@ const ML = {
    "form": -2.6
   },
   "Seychelles": {
-   "atk": -1.2547,
-   "def": -1.2221,
+   "atk": -1.2548,
+   "def": -1.2222,
    "fifa": 831.2,
    "vlog": 4.699,
    "form": -2.6
   },
   "Equatorial Guinea": {
-   "atk": -0.3552,
-   "def": 0.2527,
+   "atk": -0.3553,
+   "def": 0.2526,
    "fifa": 1250.6,
    "vlog": 7.2861,
    "form": -0.2
   },
   "Mozambique": {
-   "atk": 0.1273,
-   "def": 0.1128,
+   "atk": 0.1271,
+   "def": 0.1127,
    "fifa": 1226.0,
    "vlog": 6.9457,
    "form": -0.6
   },
   "Guam": {
-   "atk": -1.3174,
+   "atk": -1.3175,
    "def": -1.3256,
    "fifa": 821.9,
    "vlog": null,
    "form": -2.4
   },
   "Angola": {
-   "atk": 0.0554,
-   "def": 0.6543,
+   "atk": 0.0553,
+   "def": 0.6542,
    "fifa": 1281.1,
    "vlog": 7.7642,
    "form": 1.0
   },
   "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
-   "atk": -0.6903,
-   "def": -0.4459,
+   "atk": -0.6904,
+   "def": -0.446,
    "fifa": 878.1,
    "vlog": null,
    "form": -1.8
   },
   "Rwanda": {
-   "atk": -0.3133,
-   "def": 0.5657,
+   "atk": -0.3135,
+   "def": 0.5656,
    "fifa": 1123.3,
    "vlog": 6.5085,
    "form": 1.8
@@ -1405,7 +1405,7 @@ const ML = {
    "form": 2.8
   },
   "Armenia": {
-   "atk": -0.0782,
+   "atk": -0.0783,
    "def": 0.0715,
    "fifa": 1230.4,
    "vlog": 7.6232,
@@ -1426,15 +1426,15 @@ const ML = {
    "form": 0.6
   },
   "Kazakhstan": {
-   "atk": -0.0067,
+   "atk": -0.0068,
    "def": 0.2436,
    "fifa": 1193.2,
    "vlog": 7.1097,
    "form": -0.8
   },
   "Comoros": {
-   "atk": -0.0538,
-   "def": 0.3367,
+   "atk": -0.0539,
+   "def": 0.3366,
    "fifa": 1159.6,
    "vlog": 7.3243,
    "form": -0.4
@@ -1447,29 +1447,29 @@ const ML = {
    "form": -3.6
   },
   "Tonga": {
-   "atk": -1.38,
-   "def": -1.6095,
+   "atk": -1.3812,
+   "def": -1.6103,
    "fifa": 835.6,
    "vlog": null,
    "form": 0.2
   },
   "Tuvalu": {
-   "atk": -0.8539,
-   "def": -1.5514,
+   "atk": -0.8541,
+   "def": -1.5518,
    "fifa": null,
    "vlog": null,
    "form": -2.6
   },
   "Samoa": {
-   "atk": -1.2426,
-   "def": -0.971,
+   "atk": -1.244,
+   "def": -0.9713,
    "fifa": 900.8,
    "vlog": null,
    "form": -2.2
   },
   "Greenland": {
    "atk": -0.0065,
-   "def": -0.258,
+   "def": -0.2579,
    "fifa": null,
    "vlog": null,
    "form": -1.4
@@ -1482,36 +1482,36 @@ const ML = {
    "form": -1.6
   },
   "Bhutan": {
-   "atk": -1.5711,
-   "def": -1.4024,
+   "atk": -1.571,
+   "def": -1.4023,
    "fifa": 904.1,
    "vlog": null,
    "form": -3.4
   },
   "American Samoa": {
-   "atk": -1.4903,
-   "def": -2.523,
+   "atk": -1.4905,
+   "def": -2.5238,
    "fifa": 883.2,
    "vlog": null,
    "form": -3.8
   },
   "Belize": {
-   "atk": -0.851,
-   "def": -0.3515,
+   "atk": -0.8509,
+   "def": -0.3514,
    "fifa": 913.4,
    "vlog": 5.0969,
    "form": -1.0
   },
   "Cayman Islands": {
-   "atk": -1.4541,
-   "def": -0.684,
+   "atk": -1.4542,
+   "def": -0.6841,
    "fifa": 857.4,
    "vlog": null,
    "form": -1.8
   },
   "Anguilla": {
-   "atk": -1.6876,
-   "def": -1.394,
+   "atk": -1.6946,
+   "def": -1.3939,
    "fifa": 782.1,
    "vlog": null,
    "form": -2.4
@@ -1524,49 +1524,49 @@ const ML = {
    "form": -1.8
   },
   "Sint Maarten": {
-   "atk": -0.6546,
-   "def": -0.7899,
+   "atk": -0.6544,
+   "def": -0.7898,
    "fifa": null,
    "vlog": 5.4771,
    "form": -1.6
   },
   "Namibia": {
-   "atk": -0.4259,
-   "def": 0.0647,
+   "atk": -0.426,
+   "def": 0.0646,
    "fifa": 1201.3,
    "vlog": 5.9542,
    "form": -1.6
   },
   "Ynys M\u00f4n": {
-   "atk": 0.2629,
-   "def": 0.265,
+   "atk": 0.263,
+   "def": 0.2651,
    "fifa": null,
    "vlog": null,
    "form": 0.8
   },
   "Shetland": {
-   "atk": 0.3196,
-   "def": -0.0222,
+   "atk": 0.3197,
+   "def": -0.0221,
    "fifa": null,
    "vlog": null,
    "form": 1.2
   },
   "\u00c5land Islands": {
-   "atk": -0.2097,
-   "def": -0.012,
+   "atk": -0.2096,
+   "def": -0.0119,
    "fifa": null,
    "vlog": null,
    "form": -1.0
   },
   "Saint Martin": {
-   "atk": -0.2534,
+   "atk": -0.2533,
    "def": -0.5854,
    "fifa": null,
    "vlog": null,
    "form": 4.0
   },
   "San Marino": {
-   "atk": -1.3794,
+   "atk": -1.3793,
    "def": -0.6585,
    "fifa": 746.0,
    "vlog": 5.8096,
@@ -1587,14 +1587,14 @@ const ML = {
    "form": 0.2
   },
   "Isle of Wight": {
-   "atk": 0.2918,
-   "def": 0.3366,
+   "atk": 0.2919,
+   "def": 0.3367,
    "fifa": null,
    "vlog": null,
    "form": 0.4
   },
   "Turkmenistan": {
-   "atk": -0.3633,
+   "atk": -0.3632,
    "def": -0.0142,
    "fifa": 1065.4,
    "vlog": 5.301,
@@ -1615,29 +1615,29 @@ const ML = {
    "form": -0.8
   },
   "Eritrea": {
-   "atk": -0.5748,
-   "def": -0.4773,
+   "atk": -0.575,
+   "def": -0.4775,
    "fifa": 855.6,
    "vlog": 4.699,
    "form": -0.8
   },
   "Gibraltar": {
-   "atk": -0.739,
-   "def": -0.127,
+   "atk": -0.7391,
+   "def": -0.1271,
    "fifa": 842.4,
    "vlog": 5.4771,
    "form": 1.0
   },
   "Isle of Man": {
-   "atk": 0.7136,
-   "def": 0.1718,
+   "atk": 0.7137,
+   "def": 0.1719,
    "fifa": null,
    "vlog": null,
    "form": 3.2
   },
   "North Macedonia": {
    "atk": -0.1063,
-   "def": 0.5456,
+   "def": 0.5455,
    "fifa": 1351.2,
    "vlog": 7.5617,
    "form": -2.8
@@ -1651,84 +1651,84 @@ const ML = {
   },
   "Bosnia and Herzegovina": {
    "atk": 0.3964,
-   "def": 0.8099,
+   "def": 0.8098,
    "fifa": 1332.4,
    "vlog": 8.0678,
    "form": 0.2
   },
   "Andorra": {
-   "atk": -1.1453,
+   "atk": -1.1454,
    "def": 0.0961,
    "fifa": 981.7,
    "vlog": 6.0828,
    "form": -1.6
   },
   "Fr\u00f8ya": {
-   "atk": -0.4708,
-   "def": -1.1371,
+   "atk": -0.4707,
+   "def": -1.137,
    "fifa": null,
    "vlog": null,
    "form": -3.8
   },
   "Hitra": {
-   "atk": -0.0527,
-   "def": -0.5996,
+   "atk": -0.0526,
+   "def": -0.5995,
    "fifa": null,
    "vlog": null,
    "form": 0.2
   },
   "United States Virgin Islands": {
-   "atk": -1.4001,
-   "def": -1.0124,
+   "atk": -1.4003,
+   "def": -1.0123,
    "fifa": null,
    "vlog": null,
    "form": 0.0
   },
   "Northern Mariana Islands": {
-   "atk": -1.7396,
+   "atk": -1.7397,
    "def": -1.8815,
    "fifa": null,
    "vlog": null,
    "form": -0.6
   },
   "Turks and Caicos Islands": {
-   "atk": -1.2179,
+   "atk": -1.2178,
    "def": -1.2615,
    "fifa": 802.8,
    "vlog": null,
    "form": 0.4
   },
   "Tibet": {
-   "atk": 0.0308,
+   "atk": 0.0309,
    "def": -1.1964,
    "fifa": null,
    "vlog": null,
    "form": -1.8
   },
   "Orkney": {
-   "atk": -0.2557,
+   "atk": -0.2556,
    "def": -0.2205,
    "fifa": null,
    "vlog": null,
    "form": 0.4
   },
   "Falkland Islands": {
-   "atk": -0.6162,
-   "def": -0.6526,
+   "atk": -0.6161,
+   "def": -0.6525,
    "fifa": null,
    "vlog": null,
    "form": -2.6
   },
   "Mayotte": {
-   "atk": -0.1696,
-   "def": 0.1436,
+   "atk": -0.1697,
+   "def": 0.1435,
    "fifa": null,
    "vlog": null,
    "form": 0.6
   },
   "Timor-Leste": {
    "atk": -1.3237,
-   "def": -1.0987,
+   "def": -1.0986,
    "fifa": 844.8,
    "vlog": null,
    "form": -2.0
@@ -1741,36 +1741,36 @@ const ML = {
    "form": 0.2
   },
   "Kosovo": {
-   "atk": 0.4374,
+   "atk": 0.4373,
    "def": 0.8933,
    "fifa": 1206.0,
    "vlog": 8.0237,
    "form": 0.4
   },
   "S\u00e1pmi": {
-   "atk": 0.2284,
+   "atk": 0.2285,
    "def": -0.0954,
    "fifa": null,
    "vlog": null,
    "form": -1.8
   },
   "Menorca": {
-   "atk": 0.2124,
-   "def": 0.1699,
+   "atk": 0.2125,
+   "def": 0.17,
    "fifa": null,
    "vlog": null,
    "form": -0.4
   },
   "Padania": {
-   "atk": 0.2731,
-   "def": 0.45,
+   "atk": 0.2732,
+   "def": 0.4499,
    "fifa": null,
    "vlog": null,
    "form": 0.4
   },
   "Bonaire": {
-   "atk": -0.8864,
-   "def": -0.8438,
+   "atk": -0.8862,
+   "def": -0.8436,
    "fifa": null,
    "vlog": 5.5441,
    "form": -0.6
@@ -1784,20 +1784,20 @@ const ML = {
   },
   "Tamil Eelam": {
    "atk": 0.1933,
-   "def": -0.0539,
+   "def": -0.0538,
    "fifa": null,
    "vlog": null,
    "form": 2.8
   },
   "South Sudan": {
-   "atk": -0.6877,
-   "def": -0.298,
+   "atk": -0.6879,
+   "def": -0.2981,
    "fifa": 967.8,
    "vlog": null,
    "form": -1.0
   },
   "Sz\u00e9kely Land": {
-   "atk": 0.4267,
+   "atk": 0.4266,
    "def": -0.117,
    "fifa": null,
    "vlog": null,
